@@ -1,0 +1,11 @@
+<h2>Documents</h2>
+
+<div ng-controller="DocumentController as allDocuments">
+    <ul class="unstyled">
+        <li ng-repeat="document in allDocuments">
+            <label class="checkbox">
+                <span class="done-{{document.name}}">{{document.name}}</span>
+            </label>
+        </li>
+    </ul>
+</div>
